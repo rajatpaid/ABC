@@ -5,4 +5,4 @@ services:
     ports:
     - "8080:8080"  
     volumes:
-    - "/home/ec2-user/jenkins-slave/workspace/DC/gameoflife-web/target:/usr/local/tomcat/webapps"
+    - "/sync:/usr/local/tomcat/webapps"
